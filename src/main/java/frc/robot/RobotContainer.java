@@ -4,7 +4,7 @@
 
 package frc.robot;
 
-import frc.robot.Constants.OperatorConstants;
+//import frc.robot.Constants.OperatorConstants;
 import frc.robot.commands.SimpleMotorControl;
 import frc.robot.subsystems.SimpleMotor;
 import edu.wpi.first.wpilibj2.command.Command;
@@ -19,9 +19,9 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
  */
 public class RobotContainer {
 
-  private final SimpleMotor motor1 = new SimpleMotor(18, "Motor 1");
-  private final SimpleMotor motor2 = new SimpleMotor(23, "Motor 2");
-  private final SimpleMotor motor3 = new SimpleMotor(11, "Motor 3");
+  private final SimpleMotor motor1 = new SimpleMotor(41, "Motor 1");
+  private final SimpleMotor motor2 = new SimpleMotor(42, "Motor 2");
+  private final SimpleMotor motor3 = new SimpleMotor(99, "Motor 3");
   private final CommandXboxController controller = new CommandXboxController(0);
 
 
